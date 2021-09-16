@@ -1,8 +1,15 @@
-# react-use-setstate
+# React useSetState | RUSS
 
 > Batched updates for React function components, replicating the [good old] class components &quot;setState&quot;'s behavior.
 
 [![NPM](https://img.shields.io/npm/v/react-use-setstate.svg)](https://www.npmjs.com/package/react-use-setstate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## History
+This library came to the world as a  [StackOverflow answer](https://stackoverflow.com/questions/53574614/multiple-calls-to-state-updater-from-usestate-in-component-causes-multiple-re-re/56533146#56533146) that I made a while back. The question is "How to prevent multiple re-renders when you do multiple calls to state updater from useState".
+
+There's also a [discussion](https://github.com/facebook/react/issues/14259#issuecomment-439702367) around this matter in React Github issues.
+
+Due to the interest that people showed in the answer, I decided to make it into this library.
 
 ## Install
 
@@ -36,7 +43,7 @@ const SomeComponent = () => {
 ```
 
 
-## Normal Example
+## Example
 
 ```jsx
 import React from 'react'
