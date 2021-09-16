@@ -8682,7 +8682,7 @@ react-scripts@^3.0.1:
   optionalDependencies:
     fsevents "2.1.2"
 
-"react-use-set-state@link:..":
+"react-use-setstate@link:..":
   version "0.0.0"
   uid ""
 

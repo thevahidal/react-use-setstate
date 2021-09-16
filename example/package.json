@@ -1,6 +1,6 @@
 {
-  "name": "react-use-set-state-example",
-  "homepage": "https://thevahidal.github.io/react-use-set-state",
+  "name": "react-use-setstate-example",
+  "homepage": "https://thevahidal.github.io/react-use-setstate",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "link:../node_modules/react",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.0.1",
-    "react-use-set-state": "link:.."
+    "react-use-setstate": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,17 +1,17 @@
-# react-use-set-state
+# react-use-setstate
 
 > Batched updates for React function components, replicating the [good old] class components &quot;setState&quot;'s behavior.
 
-[![NPM](https://img.shields.io/npm/v/react-use-set-state.svg)](https://www.npmjs.com/package/react-use-set-state) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-use-setstate.svg)](https://www.npmjs.com/package/react-use-setstate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-use-set-state
+npm install --save react-use-setstate
 
 or [better]
 
-yarn add react-use-set-state
+yarn add react-use-setstate
 ```
 
 ## Normal Usage
@@ -19,7 +19,7 @@ yarn add react-use-set-state
 ```jsx
 import React from 'react'
 
-import useSetState from 'react-use-set-state'
+import useSetState from 'react-use-setstate'
 
 const SomeComponent = () => {
   const [state, setState] = useSetState({
@@ -62,7 +62,7 @@ const SomeComponent = () => {
 ```jsx
 import React from 'react'
 
-import useSetState from 'react-use-set-state'
+import useSetState from 'react-use-setstate'
 
 const SomeComponent = () => {
   const [state, setState] = useSetState({

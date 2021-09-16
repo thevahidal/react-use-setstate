@@ -1,10 +1,10 @@
 {
-  "name": "react-use-set-state",
+  "name": "react-use-setstate",
   "version": "1.0.0",
   "description": "Batched updates for React function components, replicating the class components &quot;setState&quot; behaviour",
   "author": "thevahidal",
   "license": "MIT",
-  "repository": "thevahidal/react-use-set-state",
+  "repository": "thevahidal/react-use-setstate",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

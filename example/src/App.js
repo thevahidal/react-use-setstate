@@ -1,5 +1,5 @@
 import React from 'react'
-import useSetState from 'react-use-set-state'
+import useSetState from 'react-use-setstate'
 
 const App = () => {
   const [state, setState] = useSetState({

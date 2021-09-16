@@ -1,6 +1,6 @@
 {
-  "short_name": "react-use-set-state",
-  "name": "react-use-set-state",
+  "short_name": "react-use-setstate",
+  "name": "react-use-setstate",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
