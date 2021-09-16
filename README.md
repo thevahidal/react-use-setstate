@@ -14,11 +14,32 @@ or [better]
 yarn add react-use-setstate
 ```
 
-## Normal Usage
+## Usage
 
 ```jsx
 import React from 'react'
+import useSetState from 'react-use-setstate'
 
+const SomeComponent = () => {
+  const [state, setState] = useSetState({
+    data: [],
+    loading: true,
+  })
+
+  const fetchData = () => {
+    setState(prevState => ({
+      data: [1, 2, 3],
+      loading: false
+    }))
+  }
+}
+```
+
+
+## Normal Example
+
+```jsx
+import React from 'react'
 import useSetState from 'react-use-setstate'
 
 const SomeComponent = () => {
@@ -57,11 +78,10 @@ const SomeComponent = () => {
 ```
 
 
-## Usage With Previous State
+## Example With Previous State
 
 ```jsx
 import React from 'react'
-
 import useSetState from 'react-use-setstate'
 
 const SomeComponent = () => {
