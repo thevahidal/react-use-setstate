@@ -1,6 +1,6 @@
 {
   "name": "react-use-setstate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Batched updates for React function components, replicating the class components &quot;setState&quot; behaviour",
   "author": "thevahidal",
   "license": "MIT",
