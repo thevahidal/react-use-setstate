@@ -1,12 +1,12 @@
-import { useMyHook } from './'
+import useSetState from './'
 import { renderHook, act } from "@testing-library/react-hooks";
 
 // mock timer using jest
 jest.useFakeTimers();
 
-describe('useMyHook', () => {
+describe('useSetState', () => {
   it('updates every second', () => {
-    const { result } = renderHook(() => useMyHook());
+    const { result } = renderHook(() => useSetState());
 
     expect(result.current).toBe(0);
 

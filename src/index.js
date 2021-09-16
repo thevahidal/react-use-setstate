@@ -1,21 +1,20 @@
 import * as React from 'react'
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState({
-    counter: 0
-  })
+import { isFunction } from './utils'
 
-  React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval)
-    }
-  }, [])
+const useSetState = (initialState = {}) => {
+  const [state, setState] = React.useReducer(
+    (state, newState) => {
+      const newWithPrevState = isFunction(newState) ? newState(state) : newState
+      return (
+        {...state, ...newWithPrevState}
+      )
+    },
+    initialState
+  )
 
-  return counter
+  return [state, setState]
 }
+
+
+export default useSetState
