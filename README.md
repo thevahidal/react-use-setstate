@@ -16,7 +16,7 @@ Due to the interest that people showed in the answer, I decided to make it into 
 ```bash
 npm install --save react-use-setstate
 
-or [better]
+or
 
 yarn add react-use-setstate
 ```
